@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1300519924269ABD005D4543 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1300519624269ABD005D4543 /* UIView+Constraints.swift */; };
+		1300519A24269ABD005D4543 /* SJGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1300519724269ABD005D4543 /* SJGradientView.swift */; };
+		1300519B24269ABD005D4543 /* SJFluidSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1300519824269ABD005D4543 /* SJFluidSegmentedControl.swift */; };
+		1300519E2426B871005D4543 /* ViewControllerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1300519D2426B871005D4543 /* ViewControllerDetails.swift */; };
+		1340465924256E7300851E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340465824256E7300851E11 /* AppDelegate.swift */; };
+		1340465B24256E7300851E11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340465A24256E7300851E11 /* SceneDelegate.swift */; };
+		1340465D24256E7300851E11 /* ViewControllerItalyLive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1340465C24256E7300851E11 /* ViewControllerItalyLive.swift */; };
+		1340466024256E7300851E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1340465E24256E7300851E11 /* Main.storyboard */; };
+		1340466224256E7500851E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1340466124256E7500851E11 /* Assets.xcassets */; };
+		1340466524256E7500851E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1340466324256E7500851E11 /* LaunchScreen.storyboard */; };
+		1340466D24256FFA00851E11 /* Italy_map_with_provinces.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1340466C24256FF900851E11 /* Italy_map_with_provinces.svg.png */; };
+		134046792425776E00851E11 /* wifi-signal-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 134046782425776E00851E11 /* wifi-signal-7.png */; };
+		1340467B242577CF00851E11 /* text-list-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1340467A242577CF00851E11 /* text-list-7.png */; };
+		1340467D242578B200851E11 /* gear-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1340467C242578B200851E11 /* gear-7.png */; };
+		1340467F2425810E00851E11 /* Italy_map_with_regions.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1340467E2425810E00851E11 /* Italy_map_with_regions.svg.png */; };
+		136C94E524265EB700E8DF6E /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 136C94E424265EB700E8DF6E /* Charts */; };
+		136C94E724266B1400E8DF6E /* TableViewCell_History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C94E624266B1400E8DF6E /* TableViewCell_History.swift */; };
+		136C94F0242677AF00E8DF6E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136C94EF242677AF00E8DF6E /* NotificationService.swift */; };
+		136C94F4242677AF00E8DF6E /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 136C94ED242677AF00E8DF6E /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		136C94FE24267B6500E8DF6E /* NVActivityIndicatorView in Frameworks */ = {isa = PBXBuildFile; productRef = 136C94FD24267B6500E8DF6E /* NVActivityIndicatorView */; };
+		13741B9B2427DC08003B444F /* TableViewCell_Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13741B9A2427DC08003B444F /* TableViewCell_Regions.swift */; };
+		13741B9D2427FFCA003B444F /* TableViewCell_RegionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13741B9C2427FFC9003B444F /* TableViewCell_RegionDetail.swift */; };
+		13741B9F24280112003B444F /* TableViewCell_Province.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13741B9E24280112003B444F /* TableViewCell_Province.swift */; };
+		13ACF7A32427840500D9CC1C /* ViewControllerRegionSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ACF7A22427840500D9CC1C /* ViewControllerRegionSelection.swift */; };
+		13DAFA592426229C001A2422 /* error-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DAFA582426229B001A2422 /* error-icon.png */; };
+		13DAFA5C24263224001A2422 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 13DAFA5B24263224001A2422 /* SwiftUICharts */; };
+		13DAFA5E24263236001A2422 /* ViewControllerHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DAFA5D24263236001A2422 /* ViewControllerHistory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		136C94F2242677AF00E8DF6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1340464D24256E7300851E11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 136C94EC242677AF00E8DF6E;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		136C94F8242677AF00E8DF6E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				136C94F4242677AF00E8DF6E /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1300519624269ABD005D4543 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		1300519724269ABD005D4543 /* SJGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJGradientView.swift; sourceTree = "<group>"; };
+		1300519824269ABD005D4543 /* SJFluidSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJFluidSegmentedControl.swift; sourceTree = "<group>"; };
+		1300519D2426B871005D4543 /* ViewControllerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDetails.swift; sourceTree = "<group>"; };
+		130051A42426C265005D4543 /* it-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "it-map.png"; sourceTree = "<group>"; };
+		1340465524256E7300851E11 /* Covid-19 Italia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid-19 Italia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1340465824256E7300851E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1340465A24256E7300851E11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1340465C24256E7300851E11 /* ViewControllerItalyLive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerItalyLive.swift; sourceTree = "<group>"; };
+		1340465F24256E7300851E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1340466124256E7500851E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1340466424256E7500851E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1340466624256E7500851E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1340466C24256FF900851E11 /* Italy_map_with_provinces.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Italy_map_with_provinces.svg.png; sourceTree = "<group>"; };
+		134046782425776E00851E11 /* wifi-signal-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wifi-signal-7.png"; sourceTree = "<group>"; };
+		1340467A242577CF00851E11 /* text-list-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "text-list-7.png"; sourceTree = "<group>"; };
+		1340467C242578B200851E11 /* gear-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-7.png"; sourceTree = "<group>"; };
+		1340467E2425810E00851E11 /* Italy_map_with_regions.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Italy_map_with_regions.svg.png; sourceTree = "<group>"; };
+		136C94E624266B1400E8DF6E /* TableViewCell_History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell_History.swift; sourceTree = "<group>"; };
+		136C94E82426749700E8DF6E /* Covid-19 Italia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Covid-19 Italia.entitlements"; sourceTree = "<group>"; };
+		136C94ED242677AF00E8DF6E /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		136C94EF242677AF00E8DF6E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		136C94F1242677AF00E8DF6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13741B9A2427DC08003B444F /* TableViewCell_Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell_Regions.swift; sourceTree = "<group>"; };
+		13741B9C2427FFC9003B444F /* TableViewCell_RegionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell_RegionDetail.swift; sourceTree = "<group>"; };
+		13741B9E24280112003B444F /* TableViewCell_Province.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell_Province.swift; sourceTree = "<group>"; };
+		13ACF7A22427840500D9CC1C /* ViewControllerRegionSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRegionSelection.swift; sourceTree = "<group>"; };
+		13DAFA582426229B001A2422 /* error-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error-icon.png"; sourceTree = "<group>"; };
+		13DAFA5D24263236001A2422 /* ViewControllerHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHistory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1340465224256E7300851E11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136C94FE24267B6500E8DF6E /* NVActivityIndicatorView in Frameworks */,
+				136C94E524265EB700E8DF6E /* Charts in Frameworks */,
+				13DAFA5C24263224001A2422 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136C94EA242677AF00E8DF6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1300519C24269AC2005D4543 /* SJFluidSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				1300519824269ABD005D4543 /* SJFluidSegmentedControl.swift */,
+				1300519724269ABD005D4543 /* SJGradientView.swift */,
+				1300519624269ABD005D4543 /* UIView+Constraints.swift */,
+			);
+			path = SJFluidSegmentedControl;
+			sourceTree = "<group>";
+		};
+		130051A32426C25D005D4543 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				13DAFA582426229B001A2422 /* error-icon.png */,
+				1340467C242578B200851E11 /* gear-7.png */,
+				1340467A242577CF00851E11 /* text-list-7.png */,
+				134046782425776E00851E11 /* wifi-signal-7.png */,
+				130051A42426C265005D4543 /* it-map.png */,
+				1340467E2425810E00851E11 /* Italy_map_with_regions.svg.png */,
+				1340466C24256FF900851E11 /* Italy_map_with_provinces.svg.png */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		1340464C24256E7300851E11 = {
+			isa = PBXGroup;
+			children = (
+				1340465724256E7300851E11 /* Sars-Cov-2 */,
+				136C94EE242677AF00E8DF6E /* OneSignalNotificationServiceExtension */,
+				1340465624256E7300851E11 /* Products */,
+				6F211FC6D2C32D11FCDCF77C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1340465624256E7300851E11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1340465524256E7300851E11 /* Covid-19 Italia.app */,
+				136C94ED242677AF00E8DF6E /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1340465724256E7300851E11 /* Sars-Cov-2 */ = {
+			isa = PBXGroup;
+			children = (
+				136C94E82426749700E8DF6E /* Covid-19 Italia.entitlements */,
+				1340465824256E7300851E11 /* AppDelegate.swift */,
+				1340465A24256E7300851E11 /* SceneDelegate.swift */,
+				1340465C24256E7300851E11 /* ViewControllerItalyLive.swift */,
+				13DAFA5D24263236001A2422 /* ViewControllerHistory.swift */,
+				136C94E624266B1400E8DF6E /* TableViewCell_History.swift */,
+				1300519D2426B871005D4543 /* ViewControllerDetails.swift */,
+				13ACF7A22427840500D9CC1C /* ViewControllerRegionSelection.swift */,
+				13741B9A2427DC08003B444F /* TableViewCell_Regions.swift */,
+				13741B9C2427FFC9003B444F /* TableViewCell_RegionDetail.swift */,
+				13741B9E24280112003B444F /* TableViewCell_Province.swift */,
+				1340465E24256E7300851E11 /* Main.storyboard */,
+				1340466124256E7500851E11 /* Assets.xcassets */,
+				1340466324256E7500851E11 /* LaunchScreen.storyboard */,
+				1340466624256E7500851E11 /* Info.plist */,
+				130051A32426C25D005D4543 /* Media */,
+				1300519C24269AC2005D4543 /* SJFluidSegmentedControl */,
+			);
+			path = "Sars-Cov-2";
+			sourceTree = "<group>";
+		};
+		136C94EE242677AF00E8DF6E /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				136C94EF242677AF00E8DF6E /* NotificationService.swift */,
+				136C94F1242677AF00E8DF6E /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		6F211FC6D2C32D11FCDCF77C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1340465424256E7300851E11 /* Sars-Cov-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1340466924256E7500851E11 /* Build configuration list for PBXNativeTarget "Sars-Cov-2" */;
+			buildPhases = (
+				1340465124256E7300851E11 /* Sources */,
+				1340465224256E7300851E11 /* Frameworks */,
+				1340465324256E7300851E11 /* Resources */,
+				136C94F8242677AF00E8DF6E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				136C94F3242677AF00E8DF6E /* PBXTargetDependency */,
+			);
+			name = "Sars-Cov-2";
+			packageProductDependencies = (
+				13DAFA5B24263224001A2422 /* SwiftUICharts */,
+				136C94E424265EB700E8DF6E /* Charts */,
+				136C94FD24267B6500E8DF6E /* NVActivityIndicatorView */,
+			);
+			productName = "Sars-Cov-2";
+			productReference = 1340465524256E7300851E11 /* Covid-19 Italia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		136C94EC242677AF00E8DF6E /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 136C94F5242677AF00E8DF6E /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				136C94E9242677AF00E8DF6E /* Sources */,
+				136C94EA242677AF00E8DF6E /* Frameworks */,
+				136C94EB242677AF00E8DF6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 136C94ED242677AF00E8DF6E /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1340464D24256E7300851E11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Co.v.er. Development";
+				TargetAttributes = {
+					1340465424256E7300851E11 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					136C94EC242677AF00E8DF6E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 1340465024256E7300851E11 /* Build configuration list for PBXProject "Sars-Cov-2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1340464C24256E7300851E11;
+			packageReferences = (
+				13DAFA5A24263224001A2422 /* XCRemoteSwiftPackageReference "ChartView" */,
+				136C94E324265EB700E8DF6E /* XCRemoteSwiftPackageReference "Charts" */,
+				136C94FC24267B6500E8DF6E /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */,
+			);
+			productRefGroup = 1340465624256E7300851E11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1340465424256E7300851E11 /* Sars-Cov-2 */,
+				136C94EC242677AF00E8DF6E /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1340465324256E7300851E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				134046792425776E00851E11 /* wifi-signal-7.png in Resources */,
+				1340466D24256FFA00851E11 /* Italy_map_with_provinces.svg.png in Resources */,
+				1340466524256E7500851E11 /* LaunchScreen.storyboard in Resources */,
+				13DAFA592426229C001A2422 /* error-icon.png in Resources */,
+				1340466224256E7500851E11 /* Assets.xcassets in Resources */,
+				1340467B242577CF00851E11 /* text-list-7.png in Resources */,
+				1340466024256E7300851E11 /* Main.storyboard in Resources */,
+				1340467F2425810E00851E11 /* Italy_map_with_regions.svg.png in Resources */,
+				1340467D242578B200851E11 /* gear-7.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136C94EB242677AF00E8DF6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1340465124256E7300851E11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1300519A24269ABD005D4543 /* SJGradientView.swift in Sources */,
+				13741B9B2427DC08003B444F /* TableViewCell_Regions.swift in Sources */,
+				1300519E2426B871005D4543 /* ViewControllerDetails.swift in Sources */,
+				1340465D24256E7300851E11 /* ViewControllerItalyLive.swift in Sources */,
+				13ACF7A32427840500D9CC1C /* ViewControllerRegionSelection.swift in Sources */,
+				1340465924256E7300851E11 /* AppDelegate.swift in Sources */,
+				1340465B24256E7300851E11 /* SceneDelegate.swift in Sources */,
+				1300519924269ABD005D4543 /* UIView+Constraints.swift in Sources */,
+				13741B9F24280112003B444F /* TableViewCell_Province.swift in Sources */,
+				13741B9D2427FFCA003B444F /* TableViewCell_RegionDetail.swift in Sources */,
+				13DAFA5E24263236001A2422 /* ViewControllerHistory.swift in Sources */,
+				1300519B24269ABD005D4543 /* SJFluidSegmentedControl.swift in Sources */,
+				136C94E724266B1400E8DF6E /* TableViewCell_History.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136C94E9242677AF00E8DF6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				136C94F0242677AF00E8DF6E /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		136C94F3242677AF00E8DF6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 136C94EC242677AF00E8DF6E /* OneSignalNotificationServiceExtension */;
+			targetProxy = 136C94F2242677AF00E8DF6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1340465E24256E7300851E11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1340465F24256E7300851E11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1340466324256E7500851E11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1340466424256E7500851E11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1340466724256E7500851E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1340466824256E7500851E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1340466A24256E7500851E11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sars-Cov-2/Covid-19 Italia.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WE3L2M3B5;
+				INFOPLIST_FILE = "Sars-Cov-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cover.Sars-Cov-2";
+				PRODUCT_NAME = "Covid-19 Italia";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1340466B24256E7500851E11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Sars-Cov-2/Covid-19 Italia.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WE3L2M3B5;
+				INFOPLIST_FILE = "Sars-Cov-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cover.Sars-Cov-2";
+				PRODUCT_NAME = "Covid-19 Italia";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		136C94F6242677AF00E8DF6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WE3L2M3B5;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cover.Sars-Cov-2.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		136C94F7242677AF00E8DF6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2WE3L2M3B5;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cover.Sars-Cov-2.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1340465024256E7300851E11 /* Build configuration list for PBXProject "Sars-Cov-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1340466724256E7500851E11 /* Debug */,
+				1340466824256E7500851E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1340466924256E7500851E11 /* Build configuration list for PBXNativeTarget "Sars-Cov-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1340466A24256E7500851E11 /* Debug */,
+				1340466B24256E7500851E11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		136C94F5242677AF00E8DF6E /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				136C94F6242677AF00E8DF6E /* Debug */,
+				136C94F7242677AF00E8DF6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		136C94E324265EB700E8DF6E /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.4.0;
+			};
+		};
+		136C94FC24267B6500E8DF6E /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ninjaprox/NVActivityIndicatorView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.8.0;
+			};
+		};
+		13DAFA5A24263224001A2422 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		136C94E424265EB700E8DF6E /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 136C94E324265EB700E8DF6E /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
+		};
+		136C94FD24267B6500E8DF6E /* NVActivityIndicatorView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 136C94FC24267B6500E8DF6E /* XCRemoteSwiftPackageReference "NVActivityIndicatorView" */;
+			productName = NVActivityIndicatorView;
+		};
+		13DAFA5B24263224001A2422 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13DAFA5A24263224001A2422 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1340464D24256E7300851E11 /* Project object */;
+}
